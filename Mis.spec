@@ -10,7 +10,7 @@ Source0:	http://mis.troll.one.pl/download/%{name}-%{version}.tar.gz
 URL:		http://mis.troll.one.pl/
 Requires:	poldek
 Requires:	perl-gtk
-Buildarch:	noarch
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
