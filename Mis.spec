@@ -6,6 +6,7 @@ Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://mis.troll.one.pl/download/%{name}-%{version}.tar.gz
+# Source0-md5: b3347e63da0514e35b19c09aa811b49d
 URL:		http://mis.troll.one.pl/
 Requires:	poldek
 Requires:	perl-gtk
