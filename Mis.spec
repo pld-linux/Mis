@@ -24,14 +24,14 @@ poldek. Zapewnia on podstawow± funkcjonalno¶æ poldka - przeszukiwanie
 bazy pakietów, instalacja, uaktualnianie, deinstalacjê, etc.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_datadir}/mis/,%{_bindir}}
+install -d $RPM_BUILD_ROOT{%{_datadir}/mis,%{_bindir}}
 
 install mis		$RPM_BUILD_ROOT%{_bindir}
-install *.lang		$RPM_BUILD_ROOT%{_datadir}/mis/
+install *.lang		$RPM_BUILD_ROOT%{_datadir}/mis
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -40,4 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README TODO
 %attr(755,root,root) %{_bindir}/*
-%dir %{_datadir}/mis/*
+%dir %{_datadir}/mis
+%{_datadir}/mis/*
