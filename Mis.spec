@@ -41,4 +41,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc README TODO
 %attr(755,root,root) %{_bindir}/*
 %dir %{_datadir}/mis
-%{_datadir}/mis/*
+%lang(pl) %{_datadir}/mis/pl_PL.lang
