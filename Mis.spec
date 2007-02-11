@@ -14,7 +14,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Mi¶ is perl-gtk library based GUI for poldek package manager. It
+Mis is perl-gtk library based GUI for poldek package manager. It
 provides basic functionality of poldek - package database searching,
 installing, upgrading, uninstalling, etc.
 
