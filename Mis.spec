@@ -1,5 +1,5 @@
 Summary:	GUI for poldek package manager
-Summary(pl):	GUI dla menad¿era pakietów poldek
+Summary(pl.UTF-8):   GUI dla menadÅ¼era pakietÃ³w poldek
 Name:		Mis
 Version:	0.0.1
 Release:	1
@@ -14,14 +14,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Mis is perl-gtk library based GUI for poldek package manager. It
+MiÅ› is perl-gtk library based GUI for poldek package manager. It
 provides basic functionality of poldek - package database searching,
 installing, upgrading, uninstalling, etc.
 
-%description -l pl
-Mi¶ jest opartym o bibliotekê perl-gtk GUI dla menad¿era pakietów
-poldek. Zapewnia on podstawow± funkcjonalno¶æ poldka - przeszukiwanie
-bazy pakietów, instalacja, uaktualnianie, deinstalacjê, etc.
+%description -l pl.UTF-8
+MiÅ› jest opartym o bibliotekÄ™ perl-gtk GUI dla menadÅ¼era pakietÃ³w
+poldek. Zapewnia on podstawowÄ… funkcjonalnoÅ›Ä‡ poldka - przeszukiwanie
+bazy pakietÃ³w, instalacja, uaktualnianie, deinstalacjÄ™, etc.
 
 %prep
 %setup -q
