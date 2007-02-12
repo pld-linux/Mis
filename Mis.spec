@@ -1,5 +1,5 @@
 Summary:	GUI for poldek package manager
-Summary(pl.UTF-8):   GUI dla menadżera pakietów poldek
+Summary(pl.UTF-8):	GUI dla menadżera pakietów poldek
 Name:		Mis
 Version:	0.0.1
 Release:	1
